@@ -1,0 +1,33 @@
+.par{
+    text-decoration-color: black
+}
+h1 {
+    font-size: 40px;
+    padding-left: 0%;
+    padding-top: 5%;
+    text-align: center;
+  }
+.borderBox{
+      border-width:5px;
+      border-color: white;
+      border-style: dotted;
+      margin-top: 4%;
+      margin-bottom: 4%;
+  }
+.pix{
+      width:120%;
+  }
+.pix1{
+    margin-bottom:5px;
+    width: 60%;
+    float: left;
+}
+.li{
+    float:right;
+}
+@media (max-width: 600px){
+    .borderBox{
+        background-color: aquamarine;
+}
+
+    

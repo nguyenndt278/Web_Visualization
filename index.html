@@ -1,28 +1,92 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en-us">
-    <meta charset="UTF-8">
-    <head>
-        <title>Nguyen bio</title>
-    </head>
-    <body>
-        <h1>Nguyen Nguyen</h1>
-        <img src="http://lorempixel.com/400/200/" alt="Nguyen's headshot">
-        <p>Nguyen is attending a data analytic bootcamp at RU.</p>
-        <p>This is her bio page.</p>
-        <ul>
-            <li><strong>Email:</strong><a href="http://www.google.com">Nguyen's email</a></li>
-            <li><strong>Github:</strong><a href="https://github.com/nguyenndt278" target="_blank">Nguyen's Github</a></li>
-            <li><strong>Twitter:</strong><a href="#">Coming soon</a></li>
-        </ul>
-        <table>
-                <th>Books</th>
-                <th>Movies</th>
-                <th>Games</th>
-            <tr>
-                <td>The Hobbits</td>
-                <td>Hot Fuzz</td>
-                <td>Dark Souls</td>
-            </tr>
-        </table>
-    </body>
+<head>
+
+  <meta charset="UTF-8">
+  <title>Weather Pie</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="mystyle.css">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+        <a class="navbar-brand" href="#">Landing Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Nguyen's Git Hub <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comparisions</a>
+            </li>
+            <li class="float">
+            <li class="my-2 my-sm-0 nav-item dropdown float">
+              <a class="nav-link dropdown-toggle float" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Plot1</a>
+                <a class="dropdown-item" href="#">Plot2</a>
+                <a class="dropdown-item" href="#">Plot3</a>
+              </div>
+            </li>
+          </li>
+          </ul>
+        </div>
+      </nav>
+</header>
+<body>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+          <h1>API Weather Project</h1>
+        </div>
+        <div class="col-md-12 borderBox">
+          <img class="pix1" src="C:\Users\admin\Desktop\Homework\Resources\assets\images\Fig1.png" alt "Fig1">
+          <p>Purpose of the project is to answer a fundamental question: <strong>"What's the weather like as we approach the equator?" </strong>by visualizing the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, we utilized a Python library Citipy and the OpenWeatherMap API to create a representative model of weather across world cities. 
+            Our objective is to build a series of scatter plots to showcase the following relationships:</p>
+          <p>* Temperature (F) vs. Latitude</p>
+          <p>* Humidity (%) vs. Latitude</p>
+          <p> * Cloudiness (%) vs. Latitude</p>
+          <p>* Wind Speed (mph) vs. Latitude</p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Visualizations</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <a href="https://www.google.com" target="_blank">
+              <img class="pix" src="C:\Users\admin\Desktop\Homework\Resources\assets\images\Fig1.png" alt "Fig1"></a>
+          </div>
+          <div class="col-md-3">
+            <a href="https://www.google.com" target="_blank">
+              <img class="pix" src="C:\Users\admin\Desktop\Homework\Resources\assets\images\Fig2.png" alt "Fig2"></a>
+            </div>
+          <div class="col-md-3">
+            <a href="https://www.google.com" target="_blank">
+                <img class="pix" src="C:\Users\admin\Desktop\Homework\Resources\assets\images\Fig3.png" alt "Fig3"></a>
+            </div>
+            <div class="col-md-3">
+              <a href="https://www.google.com" target="_blank">
+                <img class="pix" src="C:\Users\admin\Desktop\Homework\Resources\assets\images\Fig4.png" alt "Fig4"></a>
+            </div>
+        </div>
+      </div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
 </html>
+
