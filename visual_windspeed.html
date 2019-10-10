@@ -46,34 +46,29 @@
 <body>
     <div class="container-fluid">
         <div class="row">
-          <div class="col-sm-6" style="background-color:lavender;">
-              <h2 class="h2">API Weather Project</h2>
-              <img class="pix1 img-fluid" src="image\equator.png" alt "Equator">
-              <p class="p">Purpose of the project is to answer a fundamental question: <strong>"What's the weather like as we approach the equator?" </strong>by visualizing the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, we utilized a Python library Citipy and the OpenWeatherMap API to create a representative model of weather across world cities. 
-                Our objective is to build a series of scatter plots to showcase the following relationships:</p>
-              <p class="text-info">* Temperature (F) vs. Latitude</p>
-              <p class="text-info">* Humidity (%) vs. Latitude</p>
-              <p class="text-info"> * Cloudiness (%) vs. Latitude</p>
-              <p class="text-info">* Wind Speed (mph) vs. Latitude</p>
+          <div class="col-sm-6" style="background-color: rgb(245, 235, 244);">
+              <h2 class="h2">Wind Speed</h2>
+              <img class="img-fluid" src="image\WindvsLat.png" alt "Equator">
+              <p class="p">There is not a strong correlation between wind speed and latitude. It seems like the wind speed only gets higher when it approaches the poles. Reason is because the wind speed is influenced by pressure and land position rather than latitude.</p>
           </div>
-          <div class="col-sm-6 ali" style="background-color:lavenderblush;">
+          <div class="col-sm-6 ali" style="background-color: rgb(207, 219, 200);">
               <h2 class="h22">Visualizations</h2>
             <div class="col-sm-6">
               <a href="https://www.google.com" target="_blank">
-                <img class="mx-auto d-block img-fluid" src="image\TempvsLat.png" alt "LatvsTemp"></a>
+                  <img class="h2 mx-auto d-block img-fluid" src="image\CloudvsLat.png" alt "LatvsCloud"></a>
+              </div>
+            <div class="col-sm-6">
+                <a href="https://www.google.com" target="_blank">
+                  <img class="mx-auto d-block img-fluid" src="image\TempvsLat.png" alt "LatvsTemp"></a>
             </div>
             <div class="col-sm-6">
               <a href="https://www.google.com" target="_blank">
                 <img class="h2 mx-auto d-block img-fluid" src="image\HumidvsLat.png" alt "LatvsHumid"></a>
-              </div>
-            <div class="col-sm-6">
-              <a href="https://www.google.com" target="_blank">
-                  <img class="mx-auto d-block img-fluid" src="image\CloudvsLat.png" alt "LatvsCloud"></a>
-              </div>
-              <div class="col-sm-6">
+              </div>              <div class="col-sm-6">
                 <a href="https://www.google.com" target="_blank">
                   <img class="h2 mx-auto d-block img-fluid" id="img" src="image\WindvsLat.png" alt "LatvsWind"></a>
-          </div>
+               </div>
+
         </div>
       </div>
 
