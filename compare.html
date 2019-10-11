@@ -45,39 +45,30 @@
       </nav>
 </header>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-6" style="background-color:lavender;">
-              <h2 class="h2">API Weather Project <i class='fas fa-cloud-sun' style='font-size:48px;color:rgb(34, 62, 73)'></i></h2>
-              <img class="pix1 img-fluid" src="image\equator.png" alt "Equator">
-              <p class="p">Purpose of the project is to answer a fundamental question: <strong>"What's the weather like as we approach the equator?" </strong>by visualizing the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, we utilized a Python library Citipy and the OpenWeatherMap API to create a representative model of weather across world cities. 
-                Our objective is to build a series of scatter plots to showcase the following relationships:</p>
-              <p class="text-info">* Temperature (F) vs. Latitude</p>
-              <p class="text-info">* Humidity (%) vs. Latitude</p>
-              <p class="text-info"> * Cloudiness (%) vs. Latitude</p>
-              <p class="text-info">* Wind Speed (mph) vs. Latitude</p>
-          </div>
-          <div class="col-sm-6 ali" style="background-color:lavenderblush;">
-              <h2 class="h22">Visualizations <i class='fas fa-camera' style='font-size:40px;color:rgb(11, 116, 11)'></i></h2>
-            <div class="col-sm-6">
-              <a href="https://nguyenndt278.github.io/visual_maxTemp.html" target="_blank">
-                <img class="mx-auto d-block img-fluid" src="image\TempvsLat.png" alt "LatvsTemp"></a>
-            </div>
-            <div class="col-sm-6">
-              <a href="https://nguyenndt278.github.io/visual_humidity.html" target="_blank">
-                <img class="h2 mx-auto d-block img-fluid" src="image\HumidvsLat.png" alt "LatvsHumid"></a>
-              </div>
-            <div class="col-sm-6">
-              <a href="https://nguyenndt278.github.io/visual_cloudiness.html" target="_blank">
-                  <img class="mx-auto d-block img-fluid" src="image\CloudvsLat.png" alt "LatvsCloud"></a>
-              </div>
-              <div class="col-sm-6">
-                <a href="https://nguyenndt278.github.io/visual_windspeed.html" target="_blank">
-                  <img class="h2 mx-auto d-block img-fluid" id="img" src="image\WindvsLat.png" alt "LatvsWind"></a>
-          </div>
+  <div class="container">
+    <h2 class="h2">Comparisions: Latitude vs X</h2>
+    <hr>
+    <div class="container">     
+      <div class="row">
+        <div class="col-sm-6 bg-light">
+          <h5 class="h5"> vs Max Temperature</h5>
+          <a href="https://nguyenndt278.github.io/visual_maxTemp.html">
+          <img class="mx-auto d-block img-fluid" src="image\TempvsLat.png" alt "LatvsTemp"></a>
+          <h5 class="h5"> vs Humidity</h5>
+          <a href="https://nguyenndt278.github.io/visual_humidity.html">
+          <img class="mx-auto d-block img-fluid" src="image\HumidvsLat.png" alt "LatvsHumid"></a>
+        </div>
+        <div class="col-sm-6 bg-light">
+          <h5 class="h5"> vs Cloudiness</h5>
+          <a href="https://nguyenndt278.github.io/visual_cloudiness.html">
+          <img class="mx-auto d-block img-fluid" src="image\CloudvsLat.png" alt "LatvsCloud"></a>
+          <h5 class="h5"> vs Wind Speed</h5>
+          <a href="https://nguyenndt278.github.io/visual_windspeed.html">
+          <img class="mx-auto d-block img-fluid" id="img" src="image\WindvsLat.png" alt "LatvsWind"></a>
         </div>
       </div>
-
+    </div>
+  </div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
